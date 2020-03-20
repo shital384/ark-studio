@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav_bar{
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(211,211,211,0.445);
+    background-image: url(img/billboard.jpg);
+    line-height: 65px;
+}
+#nav_list li{
+   list-style: none;
+   display: inline-block;
+   font-size: 17px;
+   
+}
+
+.nav_bar ul{
+    float: right;
+    margin-right: 30px;
+}
+
+#nav_list a:hover{
+    background-color: whitesmoke;
+    color: black;
+    height: 23px;
+}
+.nav_bar img{
+    float: left;
+    height: 65px;
+    padding-left: 10%;
+    
+}
+#nav_list a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.boarding{
+    height: 650px;
+    width: 100%;
+    margin-top: 0;
+}
+.cta{
+    margin-top: 586px;
+    width: 100%;
+    height: 65px;
+    background-color: rgba(211,211,211,0.445);
+    position: absolute;
+}
+.cta p{
+    float: left;
+    color: white;
+    padding-left: 8%;
+    line-height: 65px;
+}
+.cta a{
+    float: right;
+    color: white;
+    margin: 1%;
+    padding: 10px;
+    border-style: solid;
+    background-color:gray;
+}
+.cta a:hover{
+    background-color: aqua;
+}
+.services{
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+.services img{
+    padding: 110px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    
+
+}
+.services li{
+    list-style: none;
+    display: inline-flex;
+}
+.hashtag{
+    font-size: 30px;
+    color:black;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 48px;
+}
+.services figcaption{
+    text-align: center;
+}
+.services figcaption p{
+    color: gray;
+}
+.recent_work{
+    display: inline-flex;
+    height: 320px;
+    width: 100%;
+}
+
+.testimonials{
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials img{
+    padding: 110px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    
+}
+.testimonials figcaption{
+    text-align: center;
+}
+.testimonials figcaption p{
+    color: gray;
+}
+.testimonials .testimonials_heading{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding-top: 60px;
+    padding-bottom: 48px;
+}
+.testimonials li{
+    list-style: none;
+    display: inline-flex;
+}
+.footer_widget{
+    background-color:	rgb(51, 51, 51);
+    height: 360px;
+}
+.footer_widget div{
+    display: inline-block;
+    color: white;
+    
+    margin-top: 95px;
+    padding: 70px;
+    padding-top: 40px;
+    margin-left: 40px;
+    
+}
+.footer_widget div li{
+    list-style: none;
+}
+.footer_widget div li a{
+    text-decoration: none;
+    color: white;
+}
+footer .rights{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 10px;
+    background-color:	rgb(51, 51, 51);
+    /*padding-bottom: 20px;*/
+}
+
+
+
+
+
+
